@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    margin: 0px;
+}
+
+.menu {
+    position: fixed;
+    background: aliceblue;
+    width: 100%;
+    margin-top: 0;
+    top: 0px;
+    z-index: 10;
+}
+
+.links {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+.links:hover {
+    font-size: 25px;
+    background-color: dodgerblue;
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;
+    color: crimson;
+    text-shadow: 2px 2px gainsboro;
+}
